@@ -50,6 +50,9 @@ module.exports = {
         // your custom components, labels and attributes via these options
         // See https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
         controlComponents: ['Input'],
+        'editor.formatOnSave': true,
+        'prettier.eslintIntegration': true,
+        'eslint.run': 'onSave',
       },
     ],
     'jsx-a11y/label-has-for': 0,

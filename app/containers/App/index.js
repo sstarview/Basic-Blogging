@@ -14,15 +14,27 @@ import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
+import LoginPage from '../LoginPage';
+import Navbar from '../../components/Navbar';
+import Signup from 'containers/Signup';
+import UserPage from 'containers/UserPage';
+import Logout from 'containers/Logout';
 
-export default function App() {
+function App() {
   return (
     <div>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route path="/login" component={LoginPage} />
+        <Route path="/signup" component={Signup} />
+        <Route path="/userpage" component={UserPage} />
+        <Route path="/logout" component={Logout} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
     </div>
   );
 }
+
+export default App;

@@ -77,7 +77,8 @@
     "intl": "1.2.5",
     "invariant": "2.2.4",
     "ip": "1.1.5",
-    "lodash": "4.17.11",
+    "lodash": "^4.17.15",
+    "materialize-css": "^1.0.0",
     "minimist": "1.2.0",
     "prop-types": "15.7.2",
     "react": "16.8.6",
@@ -90,7 +91,8 @@
     "redux-saga": "1.0.2",
     "reselect": "4.0.0",
     "sanitize.css": "8.0.0",
-    "styled-components": "4.2.0"
+    "styled-components": "4.2.0",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@babel/cli": "7.4.3",
