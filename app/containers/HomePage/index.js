@@ -10,7 +10,7 @@ import React from 'react';
 export default function HomePage() {
   return (
     <div className="container">
-      <h2>Welcome to demo app</h2>
+      <h2>Welcome to demo Modistabox app</h2>
     </div>
   );
 }
