@@ -19,6 +19,7 @@ import Navbar from '../../components/Navbar';
 import Signup from 'containers/Signup';
 import UserPage from 'containers/UserPage';
 import Logout from 'containers/Logout';
+import AboutPage from 'containers/AboutPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/login" component={LoginPage} />
         <Route path="/signup" component={Signup} />
         <Route path="/userpage" component={UserPage} />
+        <Route path="/about" component={AboutPage} />
         <Route path="/logout" component={Logout} />
         <Route component={NotFoundPage} />
       </Switch>
